@@ -20,7 +20,7 @@ public class BuildBinTree {
 		child2.setRight(c2child2);		// 7
 
 		System.out.println("Preorder: " + parent.preorder().toString());
-        System.out.println("Inorder: " + parent.inorder().toString());
+        	System.out.println("Inorder: " + parent.inorder().toString());
 		System.out.println("Postorder: " + parent.postorder().toString());
 		System.out.println("Levelorder: " + parent.levelorder().toString());
 
